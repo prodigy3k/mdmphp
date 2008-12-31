@@ -1,0 +1,13 @@
+/**
+ * MaNGOS Database Manager PHP
+ * .. is an open-source web-based database management using PHP.
+ *
+ * Author: prodigy ( pro.digy at gmx dot net )
+ */
+
+INSTALLATION :
+
+put all the files into a folder on your webspace
+set up the ./libs/config.conf.php to your needs
+open the index.php in your browser and log in
+using your default mangos gm account

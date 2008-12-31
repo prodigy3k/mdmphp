@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+  background-color:#000000;
+  color:#FFFFFF;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+}
+
+#pMenu{
+  position:absolute;
+  top:5px;
+  left:5px;
+  width:170px;
+  height:200px;
+  background-color:#0A0A0A;
+  border:dashed 1px #111111;
+  padding-left:5px;
+  padding-right:5px;
+}
+#pSearch{
+  position:absolute;
+  top:210px;
+  left:5px;
+  width:170px;
+  height:305px;
+  border:dashed 1px #333333;
+  background-color:#111111;
+  padding-left:5px;
+  padding-right:5px;
+}
+#pContent{
+  position:absolute;
+  top:5px;
+  left:190px;
+  width:695px;
+  height:500px;
+  border:dashed 1px #333333;
+  background-color:#222222;
+  padding:5px;
+}
+#pFooter{
+  position:absolute;
+  top:525px;
+  left:0px;
+  width:902px;
+  border-bottom:groove 1px #333333;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:8px;
+  color:#666666;
+  text-align:center;
+}
+
+/*#debug{
+  position:absolute;
+  top:710px;
+  left:5px;
+  width:1200px;
+  border:inset 1px #333333;
+  padding:5px;
+}*/
+
+h1{
+  color:#CCCCCC;
+  font-size:14px;
+  font-weight:bold;
+  text-align:center;
+}
+
+h2{
+  color:#CCCCCC;
+  font-size:12px;
+  font-weight:bold;
+  text-align:center;
+}
+
+input{
+  background-color:#000000;
+  color:#FFFFFF;
+  border:groove 1px #666666;
+  width:165px;
+}
+select{
+  background-color:#000000;
+  color:#FFFFFF;
+  border:groove 1px #666666;
+  width:166px;
+}
+.hidden{
+  background-color:#000000;
+  color:#000000;
+}
+
+fieldset{
+  background-color: #333333;
+  border: dashed 1px #666666;
+  text-align:center;
+}
+legend{
+  color:#CCCCFF;
+}
+fieldset.topframe{
+  background-color:#111111;
+  text-align:center;
+  border:ridge 1px #666666;
+}
+fieldset.frame{
+  background-color: #222222;
+  text-align:center;
+  border: ridge 1px #333333;
+}
+.toptitle{
+  font-size:16px;
+  color:#666666;
+  font-variant:small-caps;
+  text-align:left;
+}
+.title{
+  font-size:14px;
+  color:#333333;
+  font-variant:small-caps;
+  text-align:left;
+}
+.minititle{
+  font-size:12px;
+  color:#999999;
+  font-variant:small-caps;
+  float:left;
+}
+.minititle2{
+  font-size:12px;
+  color:#999999;
+  font-variant:small-caps;
+  text-align:left;
+}
+
+h1
+{
+  color: #CCCCCC;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+div ul li
+{
+  color: #FFFFFF;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  list-style-type: disc;
+}
+
+a:link
+{
+  color: #CCCCFF;
+}
+a:visited
+{
+  color: #CCCCFF;
+}
+a:active
+{
+  color: #CCCCFF;
+}
+a:hover
+{
+  color: #9999FF;
+}

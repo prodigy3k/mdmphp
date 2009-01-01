@@ -8,6 +8,7 @@
   global $xajax;
   $xajax->printJavascript('libs/xajax/');
 {/php}
+<script type="text/javascript" src="libs/mdmpage.js" charset="UTF-8"></script>
 <script type="text/javascript" charset="UTF-8">
 {literal}
 function mdmphp_onLoad()

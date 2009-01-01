@@ -4,16 +4,17 @@ if($_SESSION['loggedin'] == true)
 {
 {/php}
 <ul>
-<li><a href="javascript:void(1);" onClick="xajax_mdmpage.getContent('itemeditor');">Item Editor</a></li>
+<li><a href="javascript:loadPage('serveroverview');">Server Overview</a></li>
+<li><a href="javascript:loadPage('itemeditor');">Item Editor</a></li>
 </ul>
 <ul>
-<li><a href="javascript:void(1);" onClick="xajax_mdmpage.LogOut();">Logout</a></li>
+<li><a href="javascript:logOut();">Logout</a></li>
 </ul>
 {php}
 } else {
 {/php}
 <ul>
-<li><a href="javascript:void(1);" onClick="xajax_mdmpage.getContent('login');">Login</a></li>
+<li><a href="javascript:loadPage('login');">Login</a></li>
 </ul>
 {php}
 }

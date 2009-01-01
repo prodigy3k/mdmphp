@@ -1,8 +1,12 @@
 /**
  * MaNGOS Database Manager PHP
- * .. is an open-source web-based database management using PHP.
+ * .. is an open-source web-based database management tool using PHP.
  *
  * Author: prodigy ( pro.digy at gmx dot net )
+ *
+ * Third party used:
+ *  - Smarty: Template Engine (www.smarty.net)
+ *  - xajax:  ajax library    (www.xajaxproject.org)
  */
 
 INSTALLATION :
